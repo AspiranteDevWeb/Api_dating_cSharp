@@ -1,0 +1,10 @@
+namespace API.DTOs
+{
+    
+    public class RegisterDto
+    {
+        public RegisterDto(){}
+        public string Username { get; set; }
+        public string Password { get; set; }
+    }
+}
