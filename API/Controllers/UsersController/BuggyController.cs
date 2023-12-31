@@ -36,11 +36,12 @@ namespace API.Controllers.UsersController
 
         public ActionResult<string> GetServerError()
         {
-            var thing = _context.Users.Find(-1);
+                var thing = _context.Users.Find(-1);
 
-            var thingToReturn = thing.ToString();
+                var thingToReturn = thing.ToString();
 
-            return thingToReturn;
+                return thingToReturn;
+           
         }
 
         [HttpGet("bad-request")]
