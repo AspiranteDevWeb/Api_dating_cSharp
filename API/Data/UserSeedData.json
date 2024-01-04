@@ -21,7 +21,7 @@
   {
     "UserName": "Maude",
     "Gender": "female",
-    "DateOfBirth": "575-02-22",
+    "DateOfBirth": "0575-02-22",
     "KnownAs": "Maude",
     "Created": "2020-06-03",
     "LastActive": "2021-06-24",
@@ -136,7 +136,7 @@
     {
       "UserName": "Arnold",
       "Gender": "male",
-      "DateOfBirth": "672-12-14",
+      "DateOfBirth": "0672-12-14",
       "KnownAs": "Arnold",
       "Created": "2020-06-07",
       "LastActive": "2021-06-08",
@@ -155,7 +155,7 @@
     {
       "UserName": "Pope",
       "Gender": "male",
-      "DateOfBirth": "217-08-01",
+      "DateOfBirth": "0217-08-01",
       "KnownAs": "Pope",
       "Created": "2020-01-25",
       "LastActive": "2021-05-07",
