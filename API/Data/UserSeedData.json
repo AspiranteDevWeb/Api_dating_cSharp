@@ -13,7 +13,7 @@
     "Country": "Congo",
     "Photos": [
       {
-        "Url": "htttps://randomuser.me/api/portraits/women/90.jpg",
+        "Url": "https://randomuser.me/api/portraits/women/90.jpg",
         "IsMain": true
       }
     ]
@@ -32,7 +32,7 @@
     "Country": "Qatar",
     "Photos": [
       {
-        "Url": "htttps://randomuser.me/api/portraits/women/25.jpg",
+        "Url": "https://randomuser.me/api/portraits/women/25.jpg",
         "IsMain": true
       }
     ]
@@ -51,7 +51,7 @@
     "Country": "Namibia",
     "Photos": [
       {
-        "Url": "htttps://randomuser.me/api/portraits/women/53.jpg",
+        "Url": "https://randomuser.me/api/portraits/women/53.jpg",
         "IsMain": true
       }
     ]
@@ -70,7 +70,7 @@
     "Country": "Colombia",
     "Photos": [
       {
-        "Url": "htttps://randomuser.me/api/portraits/women/73.jpg",
+        "Url": "https://randomuser.me/api/portraits/women/73.jpg",
         "IsMain": true
       }
     ]
@@ -89,7 +89,7 @@
     "Country": "Netherlands Antilles",
     "Photos": [
       {
-        "Url": "htttps://randomuser.me/api/portraits/women/58.jpg",
+        "Url": "https://randomuser.me/api/portraits/women/58.jpg",
         "IsMain": true
       }
     ]
@@ -109,7 +109,7 @@
       "Country": "Indonesia",
       "Photos": [
         {
-          "Url": "htttps://randomuser.me/api/portraits/men/32.jpg",
+          "Url": "https://randomuser.me/api/portraits/men/32.jpg",
           "IsMain": true
         }
       ]
@@ -128,7 +128,7 @@
       "Country": "Jamaica",
       "Photos": [
         {
-          "Url": "htttps://randomuser.me/api/portraits/men/11.jpg",
+          "Url": "https://randomuser.me/api/portraits/men/11.jpg",
           "IsMain": true
         }
       ]
@@ -147,7 +147,7 @@
       "Country": "Guyana",
       "Photos": [
         {
-          "Url": "htttps://randomuser.me/api/portraits/men/18.jpg",
+          "Url": "https://randomuser.me/api/portraits/men/18.jpg",
           "IsMain": true
         }
       ]
@@ -166,7 +166,7 @@
       "Country": "Congo",
       "Photos": [
         {
-          "Url": "htttps://randomuser.me/api/portraits/men/70.jpg",
+          "Url": "https://randomuser.me/api/portraits/men/70.jpg",
           "IsMain": true
         }
       ]
@@ -185,7 +185,7 @@
       "Country": "Uzbekistan",
       "Photos": [
         {
-          "Url": "htttps://randomuser.me/api/portraits/men/92.jpg",
+          "Url": "https://randomuser.me/api/portraits/men/92.jpg",
           "IsMain": true
         }
       ]
