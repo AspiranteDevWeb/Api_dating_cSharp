@@ -11,7 +11,8 @@ public static class ClaimsPrincipalExtensions
 
     public static int GetUserId(this ClaimsPrincipal user)
     {
-        return Convert.ToInt32(user.FindFirst(ClaimTypes.NameIdentifier)?.Value);
-      // return user.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        return int.Parse(user.FindFirst(ClaimTypes.NameIdentifier)?.Value);
+        //return Convert.ToInt32(user.FindFirst(ClaimTypes.NameIdentifier)?.Value);
+        // return user.FindFirst(ClaimTypes.NameIdentifier)?.Value;
     }
 }
