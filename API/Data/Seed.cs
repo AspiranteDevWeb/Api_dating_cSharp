@@ -21,7 +21,8 @@ public class Seed
         foreach (var user in users)
         {
 
-            user.UserName = user.UserName.ToLower();
+            user.UserName = user.UserName.ToLower(); 
+            
 
             context.Users.Add(user);
         }
