@@ -37,6 +37,8 @@ namespace API.Extensions
 
             services.AddScoped<IMessageRepository, MessageRepository>();
 
+            services.AddSignalR();
+
             return services;
         }
     }
