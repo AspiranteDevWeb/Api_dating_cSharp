@@ -2,6 +2,7 @@ using API.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Group = System.Text.RegularExpressions.Group;
 
 namespace API.Data
 {
@@ -17,6 +18,10 @@ namespace API.Data
         public DbSet<UserLike>Likes { get; set; }
         
         public DbSet<Message>Messages { get; set; }
+        
+        public DbSet<Entities.Group> Groups { get; set; }
+        
+        public DbSet<Connection> Connections { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
