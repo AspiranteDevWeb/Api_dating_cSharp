@@ -36,9 +36,9 @@ namespace API.Extensions
 
             services.AddSingleton<PresenceTraker>();
 
-            services.AddScoped<IUnitOfWork, IUnitOfWork>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             return services;
         }
     }
-}
+} 
