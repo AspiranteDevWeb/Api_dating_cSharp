@@ -23,4 +23,36 @@
         <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.0.3" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="wwwroot\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="wwwroot\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="wwwroot\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="wwwroot\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\3rdpartylicenses.txt" />
+      <_ContentIncludedByDefault Remove="wwwroot\assets\user.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\favicon.ico" />
+      <_ContentIncludedByDefault Remove="wwwroot\fontawesome-webfont.2b13baa7dd4f54c9.eot" />
+      <_ContentIncludedByDefault Remove="wwwroot\fontawesome-webfont.8a7cb27d142e3e19.ttf" />
+      <_ContentIncludedByDefault Remove="wwwroot\fontawesome-webfont.cf011583fb81df9f.woff" />
+      <_ContentIncludedByDefault Remove="wwwroot\fontawesome-webfont.da909aa098b0ee2d.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\fontawesome-webfont.e9955780856cf8aa.woff2" />
+      <_ContentIncludedByDefault Remove="wwwroot\index.html" />
+      <_ContentIncludedByDefault Remove="wwwroot\main.5b836aa1a8f0e417.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\polyfills.db0af15dbe1b6f73.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\runtime.2a87fb4b105ccf83.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\styles.d456e542adb776f5.css" />
+    </ItemGroup>
+
 </Project>
